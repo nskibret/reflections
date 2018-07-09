@@ -15,7 +15,7 @@ Pros
 
 Cons
 -It has to be done manually
--It is easy to forget to commit and commits become unecessarily big
+-It is easy to forget to commit and commits may become unecessarily big
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
@@ -24,7 +24,7 @@ Version control systems like Git are made primarily for programmers as such desi
 
 How can you use the commands git log and git diff to view the history of files?
 
-git log allows us to see all the commits (different versions made) with some extra information about the updates made, the time it was made and the commits are displayed consecutively with the latest commit appearing first. Using git log we can pick the id's of that identify each commit which can be used to compare the differences between the commits using git diff. git diff displays the contents that are updated (added and deleted) in the files that are being passed as argument to git diff. 
+git log allows us to see all the commits (different versions made) with some extra information about the updates made, the time it was made and the commits are displayed consecutively with the latest commit appearing first. Using git log we can pick the id's that identify each commit which can be used to compare the differences between the commits using git diff. git diff displays the contents that are updated (added and deleted) in the files that are being passed as argument to git diff. 
 
 
 How might using version control make you more confident to make changes that could break something?
