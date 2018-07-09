@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The 'diff' command from command line allows us to compare between two different versions of a file.  It shows  the differences between the two files by putting different marks on the text lines where the differences occur and displaying them together. 
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I will west less time in trying to correct a mistake I made in newer version because I can easily correct it by going back to the older version. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros
+-Flexibility on when to commit
+-Commits are done only when absolutely necessary and avoids unecessary commits
+
+Cons
+-It has to be done manually
+-It is easy to forget to commit and commits become unecessarily big
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems like Git are made primarily for programmers as such designed to work effectively for huge projects which will be containing multiple files that may be related to each other. The other version control systems are created to work generally for any file system. 
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log allows us to see all the commits (different versions made) with some extra information about the updates made, the time it was made and the commits are displayed consecutively with the latest commit appearing first. Using git log we can pick the id's of that identify each commit which can be used to compare the differences between the commits using git diff. git diff displays the contents that are updated (added and deleted) in the files that are being passed as argument to git diff. 
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Using git checkout to navigate between the different commits, it is easy go back to the last working version of the project.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use it for controlling version of my programming project using Haskell language 
