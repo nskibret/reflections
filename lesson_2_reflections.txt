@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A new git repository is created. We do this in order to be able to track the history of our project using git. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It seats between the two. The files in our working directory are not tracked as long as they are not commited. It is advisable to make commits per one logical change we make on our files. Instead of commiting one large change to our repository at once, we push individual changes to the staging area before we finally commit. That way we can do the commits stage by stage allowing us to commit only the changes we wish to commit. 
