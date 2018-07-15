@@ -5,3 +5,7 @@ A new git repository is created. We do this in order to be able to track the his
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It seats between the two. The files in our working directory are not tracked as long as they are not commited. It is advisable to make commits per one logical change we make on our files. Instead of commiting one large change to our repository at once, we push individual changes to the staging area before we finally commit. That way we can do the commits stage by stage allowing us to commit only the changes we wish to commit. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area allows us to create logical time differences between files and changes stored in our current directory. That way we can manage the amount of change we want to commit at a particular time. We add to the staging area only the changes we want to commit once. 
