@@ -13,3 +13,7 @@ The staging area allows us to create logical time differences between files and 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 A situation where the change required is significant that we would affect the main branch in a major way. If the change we want to make has the potential to affect the entire project or introduces significant change (such as trying out a different algorithm to improve efficiency) then creating a branch will be helpful. A branch allows a new named path to be created in addition to the main path (master branch) on which we can make changes without the need to worry about affecting the main branch. 
+
+How do the diagrams help you visualize the branch structure?
+
+Easy to understand the branch structure through the diagram representation. 
