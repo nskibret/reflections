@@ -21,3 +21,13 @@ Easy to understand the branch structure through the diagram representation.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result is a commit that contains automatically merged contents from both branches. The merge becomes the new head and points to both branches so that we can trace all the commits from both branches. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Cons:
+   - If automatic merging is done always it is bound to create problems as merge conflicts can be very complex and require extensive machine learning and artificial intelligence algorithms to run in order to understand the conflicts properly.
+    -If all merges are done manually, it becomes tiresome work because most merge operations are easy and we want the computer to do it for us.
+
+Pros:
+    -Automatic merging safes a lot of time by handling most of merge process that involve no issues of conflict. 
+    -Manual merging is better when the merging involves conflicts. The existence of conflicts means discussion might be necessary between the parties administering the branches involved in the merge process to resolve the conflict. A new idea may be developed or one parties idea may win and becomes included in the merged file. 
