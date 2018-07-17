@@ -17,3 +17,7 @@ A situation where the change required is significant that we would affect the ma
 How do the diagrams help you visualize the branch structure?
 
 Easy to understand the branch structure through the diagram representation. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is a commit that contains automatically merged contents from both branches. The merge becomes the new head and points to both branches so that we can trace all the commits from both branches. 
