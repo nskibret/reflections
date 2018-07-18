@@ -6,3 +6,10 @@ When the work requires collaboration with other people.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 When we pull manually, we choose the branches to that we want. It gives us flexibility in terms of what to pull and what not. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+clone is used to copy repos from git hub to local machine or from local machine to another local machine
+Forks is basically the same as clone but used to copy repos from git hub to git hub (instead of cloning first a repo from a different user and pushing it back to our git hub account, git hub provides the fork mechanisms to copy the repos directly to our account). That way we avoid the extra work of first cloning it and then pushing it git hub. 
+
+A branch contains commits. Branches are created to allow working on different versions of the same project. This comes in handy when we want to implement a new feature to our current project but we don't want to do it on the main project so we make a copy by creating a branch. Whatever modification or addition is made on the new branch is invisible to the main branch unless we merge it. This way we make sure that we mentain a working main branch while at the same time adding a new feature which we might ultimately merge it to the main branch. Both cloned repos and forked repos can have multiple branches.   
