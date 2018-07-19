@@ -22,3 +22,7 @@ That way git can tell whether our local copy has been updated and inform us to p
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 By dividing work among the collaborators and working on each parts separately before bringing all the parts together and merge it. This may bring a lot of issues. First, independently implemented works can be hard to integrate because the parts where made without a clear picture of how they fit into the bigger project. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I want to make changes in a separate branch rather than directly in master in situations where I am trying to include a different feature or optimize certain part of the main branch and do all these without affecting the main branch. By creating a new branch and testing the new feature or optimization on the branch I make sure that the main branch remains to be used safely until I have a working new feature or optimization that I can safely merge into the main branch. In addition, I can pull request to ask my collaborates to check out the new feature I added and get feedback on it. 
