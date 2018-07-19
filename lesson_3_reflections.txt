@@ -17,3 +17,8 @@ A branch contains commits. Branches are created to allow working on different ve
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 That way git can tell whether our local copy has been updated and inform us to push the changes to the remote. Another benefit is when change is made at the local and remote and we make a pull. Git first fetchs the changes from the remote and attach it to the branch identified by the last known state of the remote and then perform merge with the local update. In general, the last state information of the remote allows git to create a branch that allows us to track the changes being made at the local and the remote copy. 
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+By dividing work among the collaborators and working on each parts separately before bringing all the parts together and merge it. This may bring a lot of issues. First, independently implemented works can be hard to integrate because the parts where made without a clear picture of how they fit into the bigger project. 
